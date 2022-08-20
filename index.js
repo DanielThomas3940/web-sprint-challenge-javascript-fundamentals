@@ -126,8 +126,8 @@ const zooAnimals = [
   */
 
   function consume(a, b, cb){
-    return cb(a, b);
-  }
+    return cb(a,b);
+    }
   
  
   
@@ -149,7 +149,7 @@ function add(a,b) {
 */
 
 function multiply(a,b){
-   return a * b
+   return a*b;
   }
 
 
@@ -171,7 +171,7 @@ function greeting(firstName, lastName){
 // console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice to meet you!
  console.log(consume(2,2, add));
 console.log(consume(10,16,multiply));
-console.log(consume("Mary", "Poppins, greeting"));
+console.log(consume("Mary", "Poppins", greeting));
 
 // 🐴🐴🐴 Topic 3: Prototypes 🐴🐴🐴 //
 
